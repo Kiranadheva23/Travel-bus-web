@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Touristik GmbH</title>
+
+  <!--- favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./bilder/css/style.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- #HEADER -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+        <img src="./bilder/images/Logo-ET.png" width="90" height="80">
+
+        <h1 class="hero-title">Event Touristik GmbH
+          
+        </h1>
+        
+        </a>
+
+        <div class="header-btn-group">
+
+          <!-- <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button> -->
+           
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Startseite</a>
+            </li>
+
+            <li>
+              <a href="#tagesreisen" class="navbar-link" data-nav-link>Tagesreisen</a>
+              
+            </li>
+
+            <li>
+              <a href="#rundreisen" class="navbar-link" data-nav-link>Rundreisen</a>
+            </li>
+
+            <li>
+              <a href="#kontakt" class="navbar-link" data-nav-link>Kontakt</a>
+            </li>
+
+            <li>
+              <a href="termine.html" class="navbar-link" data-nav-link>Termine</a>
+            </li>
+
+            <li>
+              <a href="#footer" class="navbar-link" data-nav-link>Impressum</a>
+            </li>
+
+
+
+          </ul>
+
+        </nav>
+
+       
+
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <article>
+
+      <!-- #HERO -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">Sie verreisen gern?</h2>
+
+          <p class="hero-text">
+            Sie wollen mal einen Tag etwas Schönes erleben?
+            Sie wollen ein paar Tage ausspannen und dabei Neues entdecken?
+            Dann buchen Sie eine unserer Busreisen!
+          </p>
+
+          <div class="btn-group">
+
+            <a class="btn btn-secondary" href="mehr.html">mehr</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- #TOUR SEARCH -->
+
+      <section class="tour-search">
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+             <!-- <label for="destination" class="input-label">Search Destination*</label> -->
+
+              <input type="text" name="destination" id="destination" required placeholder="Ziel eingeben
+              "
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+             <!---<label for="people" class="input-label">Pax Number*</label> -->
+
+              <input type="number" name="people" id="people" required placeholder="Anzahl des Person" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+             <!---<label for="checkin" class="input-label">Checkin Date**</label> -->
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+           <!--   <label for="checkout" class="input-label">Checkout Date*</label> -->
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Suchen </button>
+            
+
+
+          </form>
+
+        </div>
+      </section>
+
+      <!-- #tagesreisen-->
+
+      <section class="package" id="tagesreisen">
+        <div class="container">
+
+          <p class="section-subtitle">Entdecke neue Erlebnis</p>
+
+          <h2 class="h2 section-title">Schauen Sie sich unser Angebot an</h2>
+          <br><br>
+
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./bilder/images/brocken-panorama.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Brocken / Harz </h3>
+
+                  <p class="card-text">
+                      (mit Mittagessen 43,00 €)
+                  </p>  
+
+                </div>
+
+                <div class="card-price">
+
+                  <p class="price">
+                    29,00 €
+                    <span>/ pro Person</span>
+                  </p>
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./bilder/images/Bauhaus-dessau.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                </figure>
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Bauhausstadt Dessau</h3>
+
+                  <p class="card-text">
+                    (mit Mittagessen 38,00 €)
+                  </p>
+
+                </div>
+
+                <div class="card-price">
+
+                  <p class="price">
+                    24,00 €
+                    <span>/ per Person</span>
+                  </p>
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./bilder/images/woerlitzer-Park.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Wörlitzer Park</h3>
+
+                  <p class="card-text">
+                    (incl. Eintritt)
+                  </p>  
+
+                </div>
+
+                <div class="card-price">
+                  <p class="price">
+                    34,00 €
+                    <span>/ pro Person</span>
+                  </p>
+                </div>
+
+              </div>
+
+              <br><br>
+
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./bilder/images/Spreewald.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Spreewaldtour mit Kahnfahrt</h3>
+
+                  <p class="card-text">
+                      (mit Mittagessen 39,00 €)
+                  </p>  
+
+                </div>
+
+                <div class="card-price">
+
+                  <p class="price">
+                    26,00 €
+                    <span>/ pro Person</span>
+                  </p>
+                  
+
+                </div>
+
+              </div>
+
+              <br><br>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./bilder/images/kyffhaeuser-denkmal.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Kyffhäuser-Denkmal und Panoramamuseum</h3>
+
+                  <p class="card-text">
+                    (incl. Eintritt und Führung)
+                  </p>  
+
+                </div>
+
+                <div class="card-price">
+
+                  <p class="price">
+                    34,00 €
+                    <span>/ pro Person</span>
+                  </p>
+                  
+
+                </div>
+
+              </div>
+
+              <br><br>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./bilder/images/Voelkerschlachtdenkmal.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Leipzig mit Völkerschlachtdenkmal und Bummel durch die Innenstadt</h3>
+
+                  <p class="card-text">
+                    (incl. Eintritt und Führung)
+                  </p>  
+
+                </div>
+
+                <div class="card-price">
+
+                  <p class="price">
+                    34,00 €
+                    <span>/ pro Person</span>
+                  </p>
+                  
+
+                </div>
+
+              </div>
+              
+              
+              
+            </li>
+
+          </ul>
+
+          <!-- <button class="btn btn-primary">View All tagesreisen</button> -->
+
+        </div>
+      </section>
+
+      <!-- #rundreisen -->
+
+      <section class="package" id="rundreisen">
+        <div class="container">
+
+          <h2 class="h2 section-title">Rundreisen Angebot</h2>
+
+          <br><br>
+
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./bilder/images/brocken-panorama.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Harzrundfahrt</h3>
+
+                  <p class="card-text">
+                    3 Übernachtungen + Halbpension
+                    Einzelzimmerzuschlag: 15,00 € pro Nacht
+                    
+                    3 Ausflüge incl. :
+                     - Brockenbesteigung (wahlweise Fahrt im Bus)
+                     - Besuch der Herrmannshöhle
+                     - Stadtführung durch das mittelalterliche Goslar
+                  </p>  
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">3D/2N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 1</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Germany</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <p class="price">
+                    154,00 €
+                    <span>/ pro Person</span>
+                  </p>
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./bilder/images/Stadtmauer-Neubrandenburg.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                </figure>
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Mecklenburgische Seenplatte</h3>
+
+                  <p class="card-text">
+                    3 Übernachtungen + Halbpension
+                    Einzelzimmerzuschlag: 14,00 € pro Nacht
+
+                    3 Ausflüge incl. :
+                    - Schiffsausflug auf der Müritz
+                    - Besuch des Müritzeums in Waren
+                    - Stadtrundfahrt durch die Stadt der vier Tore (Neubrandenburg) mit Gang um die alte Stadtmauer
+                  </p>
+                  
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">3D/2N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 1</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Germany</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <p class="price">
+                    149,00 €
+                    <span>/ pro Person</span>
+                  </p>
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./bilder/images/basteibruecke.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    Elbsandsteingebirge - Dresden</h3>
+
+                  <p class="card-text">
+                    4 Übernachtungen + Halbpension
+                    Einzelzimmerzuschlag: 15,00 € pro Nacht
+
+                    3 Ausflüge incl. :
+                    - Bastei
+                    - Festung Königstein mit Führung
+                    - Stadtführung durch Dresden mit Besuch des Dresdner Zwingers.
+
+              
+                    Eine geführte Klettertour kann auf Wunsch vor Ort gebucht werden!
+                  </p>  
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">4D/3N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 1</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Germany</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <p class="price">
+                    219,00 €
+                    <span>/ pro Person</span>
+                  </p>
+                  
+
+                </div>
+                
+
+              </div>
+
+              <br><br>
+
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./bilder/images/saarschleife1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Saarlandrundfahrt </h3>
+
+                  <p class="card-text">
+                    5 Übernachtungen + Halbpension
+                    Einzelzimmerzuschlag: 12,00 € pro Nacht
+
+                    3 Ausflüge incl. :
+                    - Tagesausflug ins französische Elsass
+                    - Geführte Wanderung an der Saarschleife
+                    - Besuch der Völklinger Hütte (Weltkulturerbe) mit Führung.
+                    
+                    
+                    Weitere Ausflüge können vor Ort gebucht werden!
+                  </p>  
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">5D/4N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 1</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Germany</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <p class="price">
+                    234,00 €
+                    <span>/ pro Person</span>
+                  </p>
+                  
+
+                </div>
+
+              </div>
+
+              <br><br>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./bilder/images/Wartburg-Eisenach.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Thüringenrundfahrt</h3>
+
+                  <p class="card-text">
+                    4 Übernachtungen + Halbpension
+                    Einzelzimmerzuschlag: 14,00 € pro Nacht
+
+                    3 Ausflüge incl. :
+                    - Besuch der Wartburg bei Eisenach
+                    - Geführte Wanderung auf dem Rennsteig (ca.14 km)
+                    - Besichtigung des Tobiashammers bei Ohrdruf.
+
+
+                    Weitere Ausflüge können vor Ort gebucht werden!
+                  </p>  
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">4D/3N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 1</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Germany</p>
+                      </div>
+                    </li>
+
+                  </ul>
+                </div>
+
+                <div class="card-price">
+
+                  <p class="price">
+                    189,00 €
+                    <span>/ pro Person</span>
+                  </p>
+                  
+
+                </div>
+
+              </div>              
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- #kontakt -->
+
+      <section class="cta" id="kontakt">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h3 class="h3 section-title">Busreisen Fuchs (e. K:)</h3>
+            <h3 class="h3 section-title">Bundesallee 21</h3>
+            <h3 class="h3 section-title">10717 Berlin</h3>
+            <p class="section-text">
+              Fon:     030 2111434
+            </p>
+            <p class="section-text">
+              Fax:     030 2111439
+            </p>
+            <p class="section-text">
+              Email:  info.busreisenfuchs@gmail.com
+            </p>
+          </div>
+
+          <a class="btn btn-secondary" href="kontaktiereuns.html">
+            Kontaktiere Uns</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- #footer  -->
+
+  <section class="cta" id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <p class="footer-text">
+            Anmerkungen : Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit und Vollständigleit der bereitgestellten Informationen. Auf die gegenwärtigen und zukünftigen Inhalte verlinkter Websites hat der Autor keinen Einfluss und übernimmt deshalb keinerlei Verantwortung.
+          </p>
+
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Impressum</h4>
+
+          <p class="contact-text">
+            Busreisen Fuchs (e. K.)
+            Firmeninhaber: Sebastian Fuchs
+            Bundesallee 21
+            10717 Berlin
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">+49 (30) 2111434 & +49 (30) 2111434</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.tourly.com" class="contact-link">info.busreisenfuchs@gmail.com</a>
+            </li>
+
+            <P class="contact-text">
+              HRA 123456 beim Amtsgericht Berlin-Charlottenburg
+            </P>
+            <P class="contact-text">
+              UST-Id.:  DE 123456789
+            </P>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Abonnieren Sie unseren Newsletter für weitere Updates und Neuigkeiten!!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Geben sie ihre E-Mail Adresse ein" required>
+
+            <button type="submit" class="btn btn-secondary">Abonnieren</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="">busreisenfuchs</a>. Alle Rechte vorbehalten
+        </p>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!--- #GO TO TOP-->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- custom js link -->
+  <script src="./bilder/js/script.js"></script>
+
+  <!-- ionicon link -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
